@@ -14,5 +14,8 @@
     <p>Some text.</p>
     <p>Some more text/</p>
     <?php include 'footer.php'; ?>
+
+    <!-- include는 실행 안될경우 반환을 안하고 계속 실행함. -->
+    <!-- require는 실행 안될경우 반환을 안하고 프로그램 정지. -->
   </body>
 </html>
